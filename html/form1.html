@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tags</title>
+</head>
+
+<body>
+    <header>
+        <h2>This is an HTML form</h2>
+
+    </header>
+    <main>
+
+        <form action="backened.php">
+            <table class="container">
+                <tbody>
+
+
+                    <tr id="one">
+                        <td><label for="name">User Name:</label></td>
+                        <td><input type="name" name="username" placeholder="Enter name" id="name" required></td>
+                    </tr>
+                    <tr id="two">
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" name="password" placeholder="Enter password" id="password" required>
+                        </td>
+                    </tr>
+                    <tr id="three">
+                        <td><label for="gender">choose Gender:</label></td>
+                        <td>
+                            <label for="male">Male</label>
+                            <input type="radio" name="Gender" id="male">
+                            <label for="female">Female</label>
+                            <input type="radio" name="Gender" id="female">
+                        </td>
+                    </tr>
+                    <tr id="four">
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" name="myemail" placeholder="Enter Email......" id="email"></td>
+                    </tr>
+                    <tr id="five">
+                        <td>
+                            <label for="phone#">phone number:</label>
+                        </td>
+                        <td>
+                            <select name="phonenumber" id="phone#">
+                                <option value="+92">+92</option>
+                                <option value="+93">+93</option>
+                                <option value="+94">+94</option>
+                                <option value="+95">+95</option>
+                                <option value="+96">+96</option>
+                                <option value="+97">+97</option>
+                            </select>
+                            <input type="phone" placeholder="923******">
+                        </td>
+                    </tr>
+                    <tr id="sev">
+                        <td><label for="birth">select date of birth:</label></td>
+                        <td><input type="date" name="mydate" id="birth"></td>
+                    </tr>
+                    <tr id="eig">
+                        <td>
+                            <label for="check">Are you Egligible this work:</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="myegligibility" id="check">
+                        </td>
+                    </tr>
+                    <tr id="nin">
+                        <td><label for="field">select your field:</label></td>
+                        <td>
+                            <select name="field" id="field">
+                                <option value="web designer">web designer</option>
+                                <option value="grahic designer">grahic designer</option>
+                                <option value="digital marketing">digital marketing</option>
+                                <option value="web developer">web developer</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="ten">
+                        <td>write about yourself</td><br>
+                        <td>
+                            <textarea name="text" id="" cols="20" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="file">Choose file:</label></td>
+                        <td><input type="file" name="file" id="file"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="range">Select Range:</label></td>
+                        <td><input type="range" name="range" id="range"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="image"> Image:</label></td>
+                        <td><input type="image" src="software.jpg" alt="softwareimage" width="10%"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="color">color picker:</label></td>
+                        <td><input type="color" name="color" id="color"></td>
+                    <tr id="eve">
+                    </tr>
+                    <td>
+                        <button type="submit">Login</button>
+                    </td>
+                    <td>
+                        <button type="reset" value="reset all"> reset</button>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </main>
+</body>
+
+</html>
