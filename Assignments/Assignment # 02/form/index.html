@@ -9,86 +9,92 @@
 
 <body>
     <header>
-       <h2 style="color: brown;"><u>Student Registration Form</u></h2>
+        <h2 style="color: brown;"><u>Student Registration Form</u></h2>
     </header>
     <main>
         <form action="backened.php">
             <table>
-                <tr>
-                    <td><label for="Fname">First Name:</label></td>
-                    <td><input type="text" name="Firstname" id="Fname" placeholder="Enter your first name" size="50%">
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="Lname">Last Name:</label></td>
-                    <td><input type="text" name="Lastname" id="Lname" placeholder="Enter your last name" size="50"></td>
-                </tr>
-                <tr>
-                    <td><label for="Email">Email:</label></td>
-                    <td><input type="email" name="email" id="Email" placeholder="it should contain @" size="50%">
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="Mobile">Mobile:</label></td>
-                    <td><input type="tel" name="Mobile" id="Mobile" placeholder="only 10 digit are allowed" size="50%"
-                            maxlength="10"></td>
-                </tr>
-                <tr>
-                    <td><label for="Gender">Gender:</label></td>
-                    <td>
-                        <input type="radio" name="Gender" id="Gender">Male
-                        <input type="radio" name="Gender" id="Gender">Female
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="birthdate">Date of Birth</label></td>
-                    <td><input type="date" name="Dateofbirth" id="birthdate" size="50%"></td>
-                </tr>
-                <tr>
-                    <td><label for="address">Address:</label></td>
-                    <td><textarea name="text" id="address" cols="50" rows="10"></textarea></td>
-                </tr>
-                <tr>
-                    <td><label for="city">City:</label></td>
-                    <td><input type="text" name="cityname" id="city" size="50%"></td>
-                </tr>
-                <tr>
-                    <td><label for="Areapin">Area PIN:</label></td>
-                    <td><input type="password" name="areaPIN" id="Areapin" size="50%"></td>
-                </tr>
-                <tr>
-                    <td><label for="state">State:</label></td>
-                    <td><input type="text" name="" id="state" size="50%"></td>
-                </tr>
-                <tr>
-                    <td><label for="Qualification">Qualification:</label></td>
-                    <td><select name="Qualification" id="Qualification">
-                            <option value="">Select Qualification</option>
-                            <option value="Matric">Matric</option>
-                            <option value="Intermediate">Intermediate</option>
-                            <option value="Undergraduate">Undergraduate</option>
-                            <option value="Graduate">Graduate</option>
-                            <option value="Phd">Phd</option>
-                        </select></td>
-                </tr>
-                <tr>
-                    <td><label for="Specialization">Specialization</label></td>
-                    <td>
-                        <input type="checkbox" name="Computer Science" id="Specialization">Computer Science<br>
-                        <input type="checkbox" name="Information Technology" id="Specialization">Information
-                        Technology<br>
-                        <input type="checkbox" name="Computer Architecture" id="Specialization">Computer
-                        Architecture<br>
-                        <input type="checkbox" name="Tele Communication" id="Specialization">Tele Communication<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="password">Password</label></td>
-                    <td><input type="password" name="password" id="password" size="50%"></td>
-                </tr>
-                <tr>
-                    <td><input type="submit" value="Registered" style="background-color: rgb(28, 174, 28); color:white ; border-radius: 2px; border-color: white;border-width: 0px; "></td>
-                </tr>
+                <tbody>
+                    <tr>
+                        <td><label for="Fname">First Name:</label></td>
+                        <td><input type="text" name="Firstname" id="Fname" placeholder="Enter your first name"
+                                size="50%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Lname">Last Name:</label></td>
+                        <td><input type="text" name="Lastname" id="Lname" placeholder="Enter your last name" size="50">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Email">Email:</label></td>
+                        <td><input type="email" name="email" id="Email" placeholder="it should contain @" size="50%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Mobile">Mobile:</label></td>
+                        <td><input type="tel" name="Mobile" id="Mobile" placeholder="only 10 digit are allowed"
+                                size="50%" maxlength="10"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Gender">Gender:</label></td>
+                        <td>
+                            <input type="radio" name="Gender" value="male" id="Gender">Male
+                            <input type="radio" name="Gender" value="Female" id="Gender">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="birthdate">Date of Birth</label></td>
+                        <td><input type="date" name="Dateofbirth" id="birthdate" size="50%"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Address:</label></td>
+                        <td><textarea name="text" id="address" cols="50" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">City:</label></td>
+                        <td><input type="text" name="cityname" id="city" size="50%"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Areapin">Area PIN:</label></td>
+                        <td><input type="password" name="areaPIN" id="Areapin" size="50%"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="state">State:</label></td>
+                        <td><input type="text" name="" id="state" size="50%"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Qualification">Qualification:</label></td>
+                        <td><select name="Qualification" id="Qualification">
+                                <option value="">Select Qualification</option>
+                                <option value="Matric">Matric</option>
+                                <option value="Intermediate">Intermediate</option>
+                                <option value="Undergraduate">Undergraduate</option>
+                                <option value="Graduate">Graduate</option>
+                                <option value="Phd">Phd</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Specialization">Specialization:</label></td>
+                        <td>
+                            <input type="checkbox" name="Computer Science" id="Specialization">Computer Science<br>
+                            <input type="checkbox" name="Information Technology" id="Specialization">Information
+                            Technology<br>
+                            <input type="checkbox" name="Computer Architecture" id="Specialization">Computer
+                            Architecture<br>
+                            <input type="checkbox" name="Tele Communication" id="Specialization">Tele Communication<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" name="password" id="password" size="50%"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Registered"
+                                style="background-color: rgb(28, 174, 28); color:white ; border-radius: 2px; border-color: white;border-width: 0px; ">
+                        </td>
+                    </tr>
+                </tbody>
             </table>
         </form>
     </main>
