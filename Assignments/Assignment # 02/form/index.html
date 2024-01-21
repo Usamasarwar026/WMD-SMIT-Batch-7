@@ -37,15 +37,17 @@
                                 size="50%" maxlength="10"></td>
                     </tr>
                     <tr>
-                        <td><label for="Gender">Gender:</label></td>
+                        <td>Gender:</td>
                         <td>
-                            <input type="radio" name="Gender" value="male" id="Gender">Male
-                            <input type="radio" name="Gender" value="Female" id="Gender">Female
+                            <input type="radio" name="Gender" value="male" id="Male">
+                            <label for="Male">Male</label>
+                            <input type="radio" name="Gender" value="Female" id="Female">
+                            <label for="Female">Female</label>
                         </td>
                     </tr>
                     <tr>
                         <td><label for="birthdate">Date of Birth</label></td>
-                        <td><input type="date" name="Dateofbirth" id="birthdate" size="50%"></td>
+                        <td><input type="date" name="Dateofbirth" id="birthdate" style="width: 99%;"></td>
                     </tr>
                     <tr>
                         <td><label for="address">Address:</label></td>
@@ -57,11 +59,11 @@
                     </tr>
                     <tr>
                         <td><label for="Areapin">Area PIN:</label></td>
-                        <td><input type="password" name="areaPIN" id="Areapin" size="50%"></td>
+                        <td ><input type="number" name="areaPIN" id="Areapin" size="50%" style="width:98%"></td>
                     </tr>
                     <tr>
                         <td><label for="state">State:</label></td>
-                        <td><input type="text" name="" id="state" size="50%"></td>
+                        <td><input type="text" name="state" id="state" size="50%"></td>
                     </tr>
                     <tr>
                         <td><label for="Qualification">Qualification:</label></td>
@@ -75,14 +77,16 @@
                             </select></td>
                     </tr>
                     <tr>
-                        <td><label for="Specialization">Specialization:</label></td>
+                        <td>Specialization:</td>
                         <td>
-                            <input type="checkbox" name="Computer Science" id="Specialization">Computer Science<br>
-                            <input type="checkbox" name="Information Technology" id="Specialization">Information
-                            Technology<br>
-                            <input type="checkbox" name="Computer Architecture" id="Specialization">Computer
-                            Architecture<br>
-                            <input type="checkbox" name="Tele Communication" id="Specialization">Tele Communication<br>
+                            <input type="checkbox" name="Computer Science" id="CS">
+                            <label for="CS">Computer Science</label><br>
+                            <input type="checkbox" name="Information Technology" id="IT">
+                            <label for="IT">Information Technology</label><br>
+                            <input type="checkbox" name="Computer Architecture" id="CA">
+                            <label for="CA">Computer Architecture</label><br>
+                            <input type="checkbox" name="Tele Communication" id="TC">
+                            <label for="TC">Tele Communication</label>
                         </td>
                     </tr>
                     <tr>
@@ -91,7 +95,7 @@
                     </tr>
                     <tr>
                         <td><input type="submit" value="Registered"
-                                style="background-color: rgb(28, 174, 28); color:white ; border-radius: 2px; border-color: white;border-width: 0px; ">
+                                style="background-color: rgb(28, 174, 28); color:white ; border: 1px,solid,rgb(28, 174, 28);border-radius: 2px; ">
                         </td>
                     </tr>
                 </tbody>
