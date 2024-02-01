@@ -3,8 +3,10 @@ body {
     padding: 0px;
     box-sizing: border-box;
     background-image: url('./images/quin-engle-lHUdfk5WGXc-unsplash.jpg');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 nav {
@@ -178,6 +180,23 @@ input#submit {
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
     font-size: 15px
 }
+.contactnum{
+    /* border:2px solid red; */
+    background-color:rgba(0, 0, 0, 0.5); ;
+    width:20%;
+    display:inline-block;
+    position: absolute;
+    top:50%;
+    left:10%;
+    text-align: center;
+    padding:25px;
+    font-size: 22px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
 
 #footer-contact {
     display: block;

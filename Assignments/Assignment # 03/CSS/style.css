@@ -8,9 +8,10 @@ body {
     padding: 0px;
     box-sizing: border-box;
     background-image: url('images/kateryna-hliznitsova-uh9mNFNfGuY-unsplash.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 nav {
