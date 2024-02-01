@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order now</title>
+    <link rel="stylesheet" href="./CSS/order.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <!-- <p class="logo">𝔘𝔰𝔞𝔪𝔞'𝔰 ℭ𝔲𝔦𝔰𝔦𝔫𝔢 </p> -->
+            <div class="logo">
+                <img src="./images/umair's cuisine.png" alt="Error">
+                <!-- 𝔘𝔰𝔞𝔪𝔞'𝔰 ℭ𝔲𝔦𝔰𝔦𝔫𝔢 -->
+            </div>
+            <div class="mid">
+                <ul class="nav">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Timing.html">Timings</a></li>
+                    <li><a href="Contact Us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="rightbtn">
+                <button class="btn"><a href="./Contact Us.html"> Call us now</a></button>
+                <button class="btn"><a href="./Ordernow.html">Order now</a></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Order Now</h1>
+        <div>
+            <form method="post" action="backend.php">
+                <!-- personal information -->
+                <fieldset class="personal">
+                    <legend>Personal information</legend>
+                    <label for="fname">First name:</label>
+                    <input type="text" name="firstname" id="fname" placeholder="Enter your first name">
+                    <label for="lname">Last name:</label>
+                    <input type="text" name="lastname" id="lname" placeholder="Enter your last name">
+                    <label for="mobile#">Mobile #:</label>
+                    <input type="text" name="mobile" id="mobile#" placeholder="Enter your phone number">
+                    <label for="address">Address:</label>
+                    <textarea name="address" id="address" cols="40" rows="1" placeholder="Enter your address"
+                        class="textarea"></textarea>
+                </fieldset>
+                <!-- Order detail -->
+                <fieldset class="orderdetail">
+                    <legend>Order Detail</legend>
+                    <select name="size" id="">
+                        <option value="">Select Pizza size</option>
+                        <option value="1">Small</option>
+                        <option value="2">Medium</option>
+                        <option value="3">Large</option>
+                        <option value="4">Family</option>
+                    </select>
+                    <select name="Quality" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <select name="size" id="">
+                        <option value="">Select Burger size</option>
+                        <option value="1">Small</option>
+                        <option value="2">Medium</option>
+                        <option value="3">Large</option>
+                    </select>
+                    <select name="Quality" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <label for="date">Delivery Date</label>
+                    <input type="date" name="date" id="date">
+                    <label for="time">Delivery Time</label>
+                    <input type="time" name="time" id="time">
+                    <select name="payment" id="">
+                        <option value="">Payment Method</option>
+                        <option value="1">Easy Paisa</option>
+                        <option value="2">Mobile Jazz Cash</option>
+                        <option value="3">Bank Transfer</option>
+                        <option value="4">Cash ON Delivery</option>
+                    </select>
+                </fieldset>
+                <!-- Cheeses -->
+                <fieldset class="Cheeses">
+                    <legend>Cheeses</legend>
+                    <label for="1">Mozzarella</label>
+                    <input type="radio" name="Cheeses" value="1" id="1">
+                    <label for="2">Feta</label>
+                    <input type="radio" name="Cheeses" value="2" id="2">
+                    <label for="3">Reduced Fat</label>
+                    <input type="radio" name="Cheeses" value="3" id="3">
+                    <label for="4">Provolone</label>
+                    <input type="radio" name="Cheeses" value="4" id="4">
+                    <label for="5">Parmesan</label>
+                    <input type="radio" name="Cheeses" value="5" id="5">
+                </fieldset>
+                <!-- Sauces -->
+                <Fieldset class="Sauce">
+                    <legend>Sauces</legend>
+                    <label for="pizza">Pizza Sauce</label>
+                    <input type="radio" name="Sauces" value="1" id=pizza">
+                    <label for="BBQ">BBQ Sauce</label>
+                    <input type="radio" name="Sauces" value="2" id="BBQ">
+                    <label for="GS">Garlic Sauce</label>
+                    <input type="radio" name="Sauces" value="3" id="GS">
+                    <label for="P">Pesto</label>
+                    <input type="radio" name="Sauces" value="4" id="P">
+                    <label for="CS">Chili Sauce</label>
+                    <input type="radio" name="Sauces" value="5" id="CS">
+                </Fieldset>
+                <!-- cold drink -->
+                <fieldset class="drink">
+                    <legend>Cold Drink</legend>
+                    <label for="CC">Coca cola</label>
+                    <input type="radio" name="drink" value="1" id="CC">
+                    <label for="Pepsi">Pepsi</label>
+                    <input type="radio" name="drink" value="2" id="Pepsi">
+                    <label for="Fanta">Fanta</label>
+                    <input type="radio" name="drink" value="3" id="Fanta">
+                    <label for="sprite">Sprite</label>
+                    <input type="radio" name="drink" value="4" id="sprite">
+                    <label for="dew">Dew</label>
+                    <input type="radio" name="drink" value="5" id="dew">
+                </fieldset>
+                <!-- toping -->
+                <fieldset class="toping">
+                    <legend>Choose Toping - Rs.100 Each</legend>
+                    <label for="Peperoni">Peperoni</label>
+                    <input type="checkbox" name="topping" value="1" id="Peperoni">
+                    <label for="Broccoli">Broccoli</label>
+                    <input type="checkbox" name="topping" value="2" id="Broccoli">
+                    <label for="Roasted">Roasted Garlic</label>
+                    <input type="checkbox" name="topping" value="3" id="Roasted">
+                    <label for="Red">Red Onion</label>
+                    <input type="checkbox" name="topping" value="4" id="Red">
+                    <label for="Mushrooms">Mushrooms</label>
+                    <input type="checkbox" name="topping" value="5" id="Mushrooms">
+                </fieldset>
+                <!-- special instruction -->
+                <fieldset class="txt">
+                    <legend>Special instruction</legend>
+                    <textarea name="instruction" cols="30" rows="5" class="textarea"
+                        placeholder="GIve any instruction..........."></textarea>
+                </fieldset>
+                <!-- Button -->
+                <input type="submit" value="Place your order" class="sbbtn">
+                <input type="reset" value="Rest All" class="sbbtn">
+
+            </form>
+        </div>
+    </main>
+    <footer id="footer-order">
+        copyright &copy; 2021 Umair's Cuisine
+    </footer>
+</body>
+
+</html>

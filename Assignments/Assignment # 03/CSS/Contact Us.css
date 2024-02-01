@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url('./images/quin-engle-lHUdfk5WGXc-unsplash.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+nav {
+    /* border-top:2px solid black;*/
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    /* border:2px red solid; */
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    left: 34px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.mid {
+    /* border:2px red solid; */
+    display: block;
+    width: 50%;
+    margin: 12px auto;
+    font-weight: bold;
+
+}
+
+.rightbtn {
+    /* border:2px red solid; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 27px;
+
+}
+
+.nav {
+    display: inline-block;
+
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 150%;
+}
+
+.nav li a {
+    color: white;
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav li a:hover {
+    color: rgba(191, 57, 36, 1);
+}
+
+.logo img {
+    width: 300px;
+    padding-top: 0px;
+    margin-top: 2px;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(98, 93, 93);
+}
+
+.main {
+    /* border:2px solid red; */
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    width: 400px;
+    margin: 50px auto 0px auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 3px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    /* filter: drop-shadow(1.5); */
+}
+
+.register {
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+form {
+    margin: 5px 40px 20px 40px;
+    padding: 25px;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: 0;
+    padding: 4px;
+    background-color: rgba(119, 118, 118, 0.6);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+}
+
+input#submit {
+    width: 130px;
+    padding: 4px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: rgba(173, 170, 170, 0.4);
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#textarea {
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: 0;
+    padding: 4px;
+    background-color: rgba(119, 118, 118, 0.6);
+    /* background-color: #fff; */
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    font-size: 15px
+}
+
+#footer-contact {
+    display: block;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    position: fixed;
+    top: 95%;
+    right: 0;
+    left: 0;
+}

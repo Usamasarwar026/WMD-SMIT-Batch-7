@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgba(117, 110, 110, 0.6);
+}
+
+nav {
+    /* border-top:2px solid black;*/
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.logo {
+    /* border:2px red solid; */
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    left: 34px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.mid {
+    /* border:2px red solid; */
+    display: block;
+    width: 50%;
+    margin: 12px auto;
+    font-weight: bold;
+}
+
+.rightbtn {
+    /* border:2px red solid; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 27px;
+
+}
+
+.nav {
+    display: inline-block;
+
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 150%;
+}
+
+.nav li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: rgba(191, 57, 36, 1);
+}
+.logo img {
+    width: 300px;
+    padding-top: 0px;
+    margin-top: 2px;
+}
+
+.btn {
+    /* border: 2px solid grey; */
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(98, 93, 93);
+}
+
+.menubtn {
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 30px auto;
+    font: weight 5px;
+}
+
+.menubtn:hover {
+    background-color: rgb(98, 93, 93);
+}
+h1{
+    /* border:2px solid red; */
+    text-align: center;
+    font-size: 40px;
+    filter: drop-shadow(5px 5px 10px #8a8181);
+    cursor: pointer;
+    width: 15%;
+    margin: 15px 0px 0px;
+    position: relative;
+    left:250px;
+}
+form {
+    margin: 5px 40px 20px 40px;
+    padding: 25px;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.personal,
+.orderdetail {
+    width: 100%;
+    border-radius: 4px;
+    outline: 0;
+    background-color: rgba(119, 118, 118, 0.4);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    /* font-size: 20px; */
+}
+.orderdetail select,input{
+    border-radius: 4px;
+    outline: 0;
+    background-color: rgba(187, 185, 185, 0.6);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.personal input{
+    /* background-color:  rgba(119, 118, 118, 0.4); */
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: 0;
+    padding: 4px;
+    background-color: rgba(187, 185, 185, 0.6);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    font-size: 15px
+}
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+}
+
+.Cheeses,
+.Sauce,
+.drink,
+.toping,
+.txt {
+    background-color: rgba(119, 118, 118, 0.4);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    width:100%;
+}
+
+input.sbbtn {
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    width: 130px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: rgba(19, 19, 19, 0.4);
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    
+}
+.sbbtn:hover{
+    background-color: rgba(187, 185, 185, 0.6);
+}
+
+.textarea {
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: 0;
+    padding: 4px;
+    background-color: rgba(187, 185, 185, 0.6);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+}
+fieldset legend{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#footer-order {
+    display: block;
+    background: rgba(66, 66, 66, 0.6);
+    font-size: 18px;
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 95%;
+    right: 0;
+    left: 0;
+
+}

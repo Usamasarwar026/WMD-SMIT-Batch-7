@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="./Contact Us.css">
+    <link rel="stylesheet" href="./CSS/Contact Us.css">
 </head>
 
 <body>
@@ -26,8 +26,8 @@
                 </ul>
             </div>
             <div class="rightbtn">
-                <button class="btn">Call us now</button>
-                <button class="btn">Order now</button>
+                <button class="btn"><a href="./Contact Us.html"> Call us now</a></button>
+                <button class="btn"><a href="./Ordernow.html">Order now</a></button>
             </div>
         </nav>
     </header>
@@ -37,16 +37,18 @@
                 <h2>Contact Us</h2>
                 <form id=" register" method="post" action="backend.php">
                     <label for="name">Name: </label>
-                    <input type="text" name="my name" id="name" placeholder="Enter Your Name">
+                    <input type="text" name="my name" id="name" placeholder="Enter Your Name" required>
                     <br><br>
                     <label for="Email">Email: </label>
-                    <input type="text" name="Email" id="Email" placeholder="Enter Your Valid Email ">
+                    <input type="text" name="Email" id="Email" placeholder="Enter Your Valid Email " required>
                     <br><br>
                     <label for="textarea">Type your message:</label>
                     <br>
                     <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter your Message Here"></textarea>
                     <br><br>
-                    <input type="submit" value="Send Message" id="submit">
+                    <center>
+                        <input type="submit" value="Send Message" id="submit">
+                    </center>
                 </form>
             </div>
         </div>

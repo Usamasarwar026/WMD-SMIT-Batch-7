@@ -2,8 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* background-image: url(./images/lukas-blazek-EWDvHNNfUmQ-unsplash\ \(1\).jpg); */
-    background-image: url('images/lukas-blazek-EWDvHNNfUmQ-unsplash (1).jpg');
+    background-image: url('./images/lukas-blazek-EWDvHNNfUmQ-unsplash\ \(1\).jpg');
     background-size: 100%;
 
 }
