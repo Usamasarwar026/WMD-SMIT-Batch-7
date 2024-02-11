@@ -1,0 +1,520 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.logo {
+    margin: 0px 5px 0px 60px;
+    display: inline-block;
+    /* border: 2px solid brown; */
+    /* vertical-align: middle; */
+    /* position: relative; */
+    position:relative;
+    top: 20px;
+    cursor: pointer;
+}
+
+.h1 {
+    margin-bottom: 0px;
+    display: inline-block;
+    /* border:2px solid pink; */
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navigation {
+    display: inline-block;
+    /* border: 2px solid blue; */
+    position: relative;
+    left: 25%;
+}
+
+.navigation li {
+    display: inline;
+    margin: 40px;
+    font-size: 25px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+}
+.navigation li a:hover{
+    color:orangered;
+}
+
+.search {
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+    left: 25%;
+    cursor: pointer;
+}
+
+.right-btn {
+    display: inline;
+    margin: 20px;
+    position: relative;
+    left: 27%;
+}
+
+.right-btn button {
+    background-color: orangered;
+    border: none;
+    padding: 10px;
+
+}
+.right-btn button:hover{
+    background-color:rgb(212, 57, 0);
+}
+
+.right-btn a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    /* border: 2px solid rgb(236, 141, 17); */
+    margin-top: 100px;
+    padding: 50px 0px 0px 20px;
+}
+
+.content {
+    /* display: inline-block; */
+    width: 50%;
+    min-height: 500px;
+    /* border: 2px solid green; */
+}
+
+.hero .content h1 {
+    display: flex;
+    /* border: 2px solid blue; */
+    font-size: 80px;
+    margin: 20px;
+}
+
+.img1 {
+    /* border: 2px solid green; */
+    width: 50%;
+    padding-inline-start: 50px;
+}
+
+.content p {
+    /* border: 2px solid red; */
+    margin: 25px 20px 20px 20px;
+    font-size: 23px;
+}
+
+.content-btn {
+    /* border: 2px solid yellowgreen; */
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.content-btn button {
+    margin: 5px;
+    padding: 15px;
+    border: none;
+}
+
+.content-btn button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 19px;
+}
+
+#btn-1 {
+    background-color: orangered;
+    padding: 15px 23px;
+}
+
+#btn-2 {
+    background-color: black;
+}
+#btn-2:hover{
+    background-color: rgb(85, 79, 79);
+}
+#btn-1:hover{
+    background-color: rgb(212, 57, 0);
+}
+
+.services-container {
+    width: 100%;
+    margin-top: 90px;
+    /* border: 2px solid blue; */
+    padding-top: 20px;
+}
+
+.services-container h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.services-container p {
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.card-container {
+    /* border: 2px solid goldenrod; */
+    padding: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.card {
+    flex: 1 1 21rem;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    width: 33.3%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-self: normal;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 0.6s ease;
+}
+
+.card img {
+    /* border: 2px solid goldenrod; */
+    width: 70px;
+    position: relative;
+    left: 43%;
+    top: 10%;
+    align-items: center;
+
+
+}
+
+.card h3 {
+    margin-top: 50px;
+    /* border: 2px solid green; */
+    text-align: center;
+    color: rgb(197, 92, 92);
+    font-size: 30px;
+}
+
+.card-content p {
+    /* border: 2px solid blue; */
+    text-align: center;
+    margin: 5px 20px;
+}
+
+.service-btn {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.service-btn a {
+    font-size: 30px;
+    color: rgb(240, 43, 43);
+    text-decoration: none;
+}
+
+#services-btn {
+    background-color: black;
+    margin: 5px;
+    padding: 15px;
+    border: none;
+}
+#services-btn:hover{
+    background-color: rgb(85, 79, 79);
+}
+
+#services-btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 19px;
+}
+
+.freshfruit {
+    /* border: 2px solid red; */
+    margin: 80px auto;
+}
+
+.fresher h1 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.fresher p {
+    font-size: 23px;
+    text-align: center;
+    /* margin: 30px; */
+}
+
+.fruit {
+    /* border: 2px solid brown; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+}
+
+.fruity {
+    width: 60%;
+    /* border: 2px solid greenyellow; */
+}
+
+.fruity h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fruity p {
+    font-size: 23px;
+    text-align: justify;
+    margin: 25px 0px;
+}
+
+.fresher-btn {
+    margin-top: 50px;
+}
+
+#fresh-btn {
+    background-color: black;
+    margin: 5px;
+    padding: 15px;
+    border: none;
+}
+#fresh-btn:hover{
+    background-color: rgb(85, 79, 79);
+}
+
+#fresh-btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 19px;
+    margin: 0px 15px;
+}
+
+.Images {
+    /* border: 2px solid blueviolet; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Images:hover{
+    transform: scale(1.1);
+    transition: transform 0.6s ease;
+}
+
+.Images #Orng {
+    width: 75%;
+
+}
+
+.Images #grap {
+    width: 25%;
+}
+
+.Images #gauv {
+    width: 60%;
+}
+
+.intro {
+    width: 100%;
+    /* border: 2px solid grey; */
+    text-align: center;
+    margin: 70px 0px;
+}
+
+.head h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.head p {
+    font-size: 23px;
+}
+
+.image-client {
+    margin-top: 70px;
+}
+
+.client-name h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.client-name p {
+    font-size: 22px;
+    margin: 30px;
+    line-height: 27px;
+}
+
+.client-name p span {
+    display: block;
+}
+
+.contact {
+    /* border: 2px solid rgb(30, 182, 81); */
+    display: flex;
+    margin: 150px 0px;
+}
+
+.form {
+    /* border: 2px solid blue; */
+    width: 70%;
+    padding-left: 50px;
+
+
+}
+
+.form form {
+    /* border: 2px solid yellowgreen; */
+    margin: 40px 0px;
+}
+
+.form h1 {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.imge {
+    /* border: 2px solid blueviolet; */
+    text-align: right;
+    width: 30%;
+}
+
+.forminput {
+    font-size: 20px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: 0;
+    padding: 4px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(104, 104, 104);
+    opacity: 90%;
+    font-size: 21px;
+}
+
+.form textarea {
+    resize: none;
+    font-size: 20px;
+    margin-top: 40px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: 0;
+    padding: 4px;
+}
+
+::-webkit-textarea-placeholder {
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+}
+
+#submit {
+    margin: 50px 0px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(218, 58, 0);
+}
+
+.footer {
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+
+}
+
+.footer h3 {
+    width: 100%;
+    font-size: 35px;
+    font-weight: none;
+    cursor: pointer;
+}
+
+.fruitfooter {
+    width: 25%;
+    /* border: 2px solid rgb(101, 160, 101); */
+    padding: 40px;
+    font-size: 23px;
+    line-height: 35px;
+    margin: 10px 30px;
+}
+
+.fruitfooter p {
+    margin: 10px 30px 0px 0px;
+}
+
+.fruitfooter span img {
+    margin: 20px 4px 0px;
+
+}
+
+#subscribe {
+    margin: 20px 0px 10px;
+}
+#footerinput{
+    width: 100%;
+    height: 35px;
+}
+.fruitfooter button{
+    margin: 30px 0px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 21px;
+    width: 150px;
+    padding: 8px 15px;
+}
+.fruitfooter button:hover{
+    background-color: rgb(218, 58, 0);
+}
+.fruitfooter button a{
+    color: white;
+    text-decoration: none;
+}
+.mainfooter{
+    margin:10px auto 0px;
+    /* border: 2px solid grey; */
+    font-size: 23px;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+
+}
