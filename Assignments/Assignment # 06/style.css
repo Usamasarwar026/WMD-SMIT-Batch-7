@@ -3,10 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-/* .carousel-item img{
-    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
-} */
+body{
+    background-color: #e3e6e6e5;
+}
 .card{
     height: 420px;
 }
@@ -23,44 +22,18 @@
     border: 1px solid white;
 }
 .create{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(153, 160, 167, 0.2) 0px 8px 24px;
 }
 .create:hover{
-    background-color: #edf3f3 !important;
+    background-color: #edf3f3f5 !important;
 }
 footer{
-    box-shadow: rgba(198, 206, 213, 0.678) 0px 3px 20px 0px inset;
+    box-shadow: rgba(198, 206, 213, 0.644) 0px 3px 20px 0px inset;
 }
 .cross:hover{
     cursor: pointer;
 }
 
-
-
-
-
-
-
-/* width */
-.wrapper:hover::-webkit-scrollbar {
-    height: 8px;
-  }
-  
-  /* Track */
-  .wrapper:hover::-webkit-scrollbar-track {
-    background: white;  
-  }
-   
-  /* Handle */
-  .wrapper:hover::-webkit-scrollbar-thumb {
-    background: rgb(77, 77, 77); 
-    border-radius: 20px;
-  }
-  
-  /* Handle on hover */
-  .wrapper:hover::-webkit-scrollbar-thumb:hover {
-    background: rgb(140, 140, 140); 
-  }
   .backToTop{
     background-color: #37475A;
     transition: .2s;
@@ -68,16 +41,6 @@ footer{
 .backToTop:hover{
     background-color: #485b72;
 }
-
-
-
-/* ############################### MEDIA QUERIES ########################### */
-
-
-
-
-
-
  
 @media (max-width:991px){
     .about-container{
@@ -94,62 +57,4 @@ footer{
     .about-container{
         margin-top: -15rem;
     }
-}/*
-@media (min-width:768px){
-    .wrapper::-webkit-scrollbar{
-        height: 0;
-    }
 }
-@media (max-width:700px){
-    .carousel-control-prev, .carousel-control-next{
-        margin-top: -.05rem;
-        height: 200px;
-    }
- }
-@media (max-width:685px){
-    .ft-2{
-        flex-direction: column;
-    }
-}
-@media (max-width: 576px){
-    .ft-1{
-        text-align: center;
-        padding: 0;
-    }
-}
-@media (max-width:546px){
-    .bar-2{
-        overflow-x: scroll;
-    }
-}
-@media (min-width:520px){
-    .dropmenu{
-        width: 500px !important;
-    }
-}
-@media (max-width:460px){
-    .ft-2-1{
-        flex-direction: column; 
-    }
-}
-@media (max-width:450px){
-    .bar-2{
-        font-size: .6rem;
-    }
-    .bar-2 button{
-        font-size: .6rem;
-    }
-    .bar-2 img{
-        width: 15px;
-    }
-    .carousel-control-prev, .carousel-control-next{
-        margin-top: .5rem;
-        height: 100px;
-    }
-    .offcanvas-body h5{
-        font-size: .8rem;
-    }
-    .offcanvas-body a{
-        font-size: .7rem !important;
-    }
-}  */
