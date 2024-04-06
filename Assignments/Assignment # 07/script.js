@@ -265,22 +265,17 @@
 // Percentage >= 40 % : Grade E
 // Percentage < 40 % : Grade F
 
-// var total_marks = prompt("Enter the total marks of five subjects");
-// var Chemistry = prompt("Enter the marks of chemistry");
-// var physics = prompt("Enter the marks of physics");
-// var Mathematics = prompt("Enter the marks of mathematics");
-// var Computer = prompt("Enter the marks of computer");
-// var Biology = prompt("Enter the marks of biology");
+// var total_marks = parseInt(prompt("Enter the total marks of five subjects"));
+// var Chemistry = parseInt(prompt("Enter the marks of chemistry"));
+// var physics = parseInt(prompt("Enter the marks of physics"));
+// var Mathematics = parseInt(prompt("Enter the marks of mathematics"));
+// var Computer = parseInt(prompt("Enter the marks of computer"));
+// var Biology = parseInt(prompt("Enter the marks of biology"));
 // var sum ;
-// var total;
 // var percentage;
-// sum ;
-// for (let index = 0; index < marks; index++) {
-//     total[index] = prompt("Enter the marks of five subject:" );
-//     sum = sum + total[index]; 
-// }
-// percentage = (((Chemistry + physics + Mathematics + Computer + Biology)*100)/total_marks);
-//     if (percentage >= 90)
+//     sum = Chemistry + physics + Mathematics + Computer + Biology ;
+// percentage = ((sum*100)/total_marks);
+//     if (percentage >= 90 )
 //     {
 //         console.log(`your grade is A`)
 //         alert(`your grade is A`)
