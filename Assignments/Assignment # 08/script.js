@@ -20,12 +20,38 @@
 // 3.  Write a JS code to delete all occurrence of element in given array
 
 
-const array = [6, 2, 3, 4, 2, 6, 7, 2, 9, 10, 2];
-const val = 2;
+// const array = [6, 2, 3, 4, 2, 6, 7, 2, 9, 10, 2];
+// const val = 2;
 
-function removeAllOccurrences(arr, value) {
-    return arr.filter(item => item !== value);
-}
+// function removeAllOccurrences(arr, value) {
+//     return arr.filter(item => item !== value);
+// }
 
-const newArray = removeAllOccurrences(array, val);
-console.log("Array after removing all occurrences of", val + ":", newArray);
+// const newArray = removeAllOccurrences(array, val);
+// console.log("Array after removing all occurrences of", val + ":", newArray);
+
+
+
+// 4. Write a JS code to find the power of a number using for loop
+
+
+//// Function to calculate power of a number using for loop
+// function power(base, exponent) {
+//     let result = 1;
+//     for (let i = 0; i < exponent; i++) {
+//         result *= base;
+//     }
+//     return result;
+// }
+// const base = parseFloat(prompt("Enter the base:"));
+// const exponent = parseInt(prompt("Enter the exponent:"));
+
+// if (isNaN(base) || isNaN(exponent)) {
+//     console.log("Please enter valid numbers.");
+//     alert("Please enter valid numbers.");
+// } else {
+//     const result = power(base, exponent);
+//     console.log(base + " raised to the power of " + exponent + " is:", result);
+//     alert(base + " raised to the power of " + exponent + " is:" + result);
+// }
+
