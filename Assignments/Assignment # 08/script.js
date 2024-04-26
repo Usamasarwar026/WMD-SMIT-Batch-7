@@ -79,3 +79,59 @@
 //     console.log(p);
 // }
 
+
+
+
+
+//       6. Write a JS code to find the no of digits in a number
+
+// // Prompt the user to enter a number
+// var num = prompt("Enter a Number : ");
+
+// // Convert the absolute value of the number to a string and count its length
+// var countDigits = Math.abs(num).toString().length;
+
+// // Print the total number of digits to the console
+// console.log(`Total digits are "  ${countDigits}`);
+// alert(`Total digits are " ${countDigits}`);
+
+
+
+// 7. Write a JS code to calculate the sum of digits in a number
+
+
+
+
+// let num = +prompt("Enter a Number : ");
+// let sum = 0;
+
+// while (num > 0) {
+//     sum += num % 10; // Add the last digit to the sum
+//     num = Math.floor(num / 10); // Remove the last digit from the number
+// }
+
+// console.log(`Sum of digits is ${sum}`);
+// alert(`Sum of digits is ${sum}`);
+
+
+
+// 8. Write a JS code to find the largest number in an array
+
+
+
+let array = [];
+
+for (let i = 0; i < 5; i++) {
+    let numbers = Number(prompt('Enter 5 numbers in an array :'));
+    array.push(numbers);
+}
+
+let max = -Infinity;
+
+for (let index = 0; index < array.length; index++) {
+
+    if (max < array[index]) {
+        max = array[index]
+    }
+}
+console.log(max)
