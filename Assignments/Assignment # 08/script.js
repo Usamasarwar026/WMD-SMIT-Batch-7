@@ -119,19 +119,42 @@
 
 
 
-let array = [];
+// const numbers = [10, 5, 20, 8, 15];
 
-for (let i = 0; i < 5; i++) {
-    let numbers = Number(prompt('Enter 5 numbers in an array :'));
-    array.push(numbers);
-}
+// let largest = numbers[0];
 
-let max = -Infinity;
+// for (let i = 1; i < numbers.length; i++) {
+//     if (numbers[i] > largest) {
+//         largest = numbers[i];
+//     }
+// }
+// console.log("The largest number in the array is:", largest);
+// alert(`The largest number in the array is: "  ${largest}`);
 
-for (let index = 0; index < array.length; index++) {
 
-    if (max < array[index]) {
-        max = array[index]
-    }
-}
-console.log(max)
+
+
+
+// 9. Write a JS code to print the Fibonacci series for a given value of N
+
+
+// let N = parseInt(prompt("Enter the value of N for Fibonacci series: "));
+// let a = 0;
+// let b = 1;
+
+// let fibSeries = "Fibonacci series up to " + N + ":\n";
+// fibSeries += a + "\n" + b + "\n"; 
+
+// for (let i = 2; i < N; i++) {
+//     let c = a + b; 
+//     fibSeries += c + "\n"; 
+//     a = b; 
+//     b = c; 
+// }
+
+// alert(fibSeries);
+
+
+// 10. Write a JS code to find duplicate values in a given array
+
+
