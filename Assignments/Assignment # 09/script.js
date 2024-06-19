@@ -28,7 +28,7 @@
 // c) Determine if a given string is empty.
 
 // function check_string(str){
-//     if(str == ""){
+//     if(str.trim() == ""){
 //         console.log("string is empty");
 //     }
 //     else{
@@ -42,7 +42,37 @@
 
 // d) Count the number of vowels in a string.
 
+// function check_vowel(str){
+//     let count = 0;
+//     str = str.toUpperCase();
+//     for (let index = 0; index < str.length; index++) {
+//         let character = str.charAt(index)
+//         if(character == 'A' || character == 'E' || character == 'I' || character == 'O' || character == 'U' ){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
 
-function check_vowel(str){
-    
+// let fname = "Usama_Sarwar";
+// let numberofvowel = check_vowel(fname);
+// console.log("The number of vowel word in the string is: ", numberofvowel);
+
+
+ 
+
+// e) Reverse a given string
+
+
+let string = "USAMA321";
+
+function Reverse_string(str){
+    let reversed
+    for (let index = str.length; index >= 0; index--) {
+      reversed += str[index];
+    }
+    return reversed
 }
+
+let reverse = Reverse_string(string);
+console.log(reverse);
