@@ -18,24 +18,59 @@ arr.forEach(button =>{
             input.value = string;
         }
         else if(e.target.innerHTML == 'sin'){
-            function sin(){
-                // string = Math.sin(string);
-                // //  input.value = Math.sin(input.value);
-                //  input.value = string;
-
-                string = Math.sin(
-                    (parseFloat(currentInput) * Math.PI) / 180
-                  ).toString();
-                  input.value = string;
-            }
+                 string = Math.sin(input.value * Math.PI / 180);
+                 input.value = string;
         }
         else if(e.target.innerHTML == 'cos'){
-            function cos(){
-                string = Math.cos(string);
-                //  input.value = Math.cos(input.value);
+                 string = Math.cos(input.value * Math.PI / 180);
                  input.value = string;
-            }
         }
+        else if(e.target.innerHTML == 'tan'){
+                 string = Math.tan(input.value * Math.PI / 180);
+                 input.value = string;
+        }
+        else if(e.target.innerHTML == 'asin'){
+                 string = Math.asin(input.value )* (180 / Math.PI);
+                 input.value = string;
+        }
+        else if(e.target.innerHTML == 'acos'){
+                 string = Math.acos(input.value) * (180 / Math.PI);
+                 input.value = string;
+        }
+        else if(e.target.innerHTML == 'ln'){
+                 string = Math.log(input.value);
+                 input.value = string;
+        }
+        else if(e.target.innerHTML == 'log'){
+                 string = Math.log10(input.value);
+                 input.value = string;
+        }
+        else if(e.target.innerHTML == 'x<sup>2</sup>'){
+                 string = Math.pow(input.value, 2);
+                 input.value = string;
+        }
+        else if(e.target.innerHTML == 'x<sup>3</sup>'){
+                 string = Math.pow(input.value, 3);
+                 input.value = string;
+        }
+        // else if(e.target.innerHTML == '%'){
+        //          string = (input.value);
+        //          input.value = string;
+        // }
+        else if(e.target.innerHTML == '√'){
+                 string = Math.sqrt(input.value);
+                 input.value = string;
+        }
+        else if(e.target.innerHTML == 'π'){
+                 string = (input.value * 22/7);
+                 input.value = string;
+        }
+       
+        else if(e.target.innerHTML == 'EXP'){
+                 string = Math.pow(10, input.value);
+                 input.value = string;
+        }
+        
 
         else{
             string += e.target.innerHTML;
@@ -43,10 +78,3 @@ arr.forEach(button =>{
         }
      })
 })
-
-
-function sin(){
-    // string = Math.sin(string);
-     input.value = Math.sin(input.value);
-    //  input.value = string;
-}
