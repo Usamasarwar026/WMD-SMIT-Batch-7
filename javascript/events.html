@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <img src="button-greet.png" onClick="alert('Hello world!');">
+
+
+    <input type="button" value="Click" onClick="alert('Hello world!');"></input> -->
+
+
+    <!-- <img src="./images/box1_image.jpg" onMouseover="src='WMD-SMIT-Batch-7\javascript\images\box5_image.jpg'"> -->
+
+
+    <!-- <h1 onMouseover="this.style.color='green';"   onMouseout="this.style.color='red'">World Ends Tomorrow</h1>
+
+    <p id="loris" onMouseover="expand();">Slow Loris: Mouse over for more info</p> -->
+    <!-- 
+    Email:<br>
+    <input type="text" size="30" onFocus="this.style.backgroundColor='yellow';"
+    onBlur="this.style.backgroundColor='white';"> -->
+
+    <!-- 
+    <form onSubmit="checkAddress('email');">
+        Email:
+        <input type="text" id="email">
+        <input type="submit" value="Submit">
+        </form> -->
+
+<!-- 
+    <form>
+        ZIP:<br>
+        <input type="text" id="zip" onBlur="fillCity();"><br>
+        City:<br>
+        <input type="text" id="city">
+    </form> -->
+
+
+    <p id="lorisList">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, blanditiis?
+        <a href="javascript:void(0);" onClick="placeAList();"><em>Click for more.</em></a>
+    </p>
+
+
+
+    <script>
+
+        function checkAddress(fieldId) {
+            if (document.getElementById(fieldId).value === "") {
+                alert("Email address required.");
+            }
+        }
+
+
+
+        function fillCity() {
+            var cityName;
+            var zipEntered = document.getElementById("zip").value;
+            switch (zipEntered) {
+                case "60608":
+                    cityName = "Chicago";
+                    break;
+                case "68114":
+                    cityName = "Omaha";
+                    break;
+                case "53212":
+                    cityName = "Milwaukee";
+            }
+            document.getElementById("city").value = cityName;
+        }
+
+         function placeAList() {
+var listToPlace = "<ol><li>Slow loris</li><li>Fast loris</li><li>Just-right loris</li></ol>";
+document.getElementById("lorisList").innerHTML = listToPlace;
+ }
+
+
+    </script>
+</body>
+
+</html>
