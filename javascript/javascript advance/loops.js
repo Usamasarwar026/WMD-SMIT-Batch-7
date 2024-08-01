@@ -42,3 +42,39 @@
 //     }
 // }
 
+
+
+// print counting---------------
+
+
+// for(let i=1; i<=100; i++){
+//     console.log(i)
+// }
+
+
+
+
+// for(let i=1; i<=100; i=i+10){
+//     for(let j=i; j<i+10; j++){
+//         console.log(j);
+//     }
+// }
+
+
+
+//------------------- print such design:----------------------
+// $
+// $$
+// $$$
+// $$$$
+// $$$$$
+
+
+
+
+for(let i = 0; i < 5; i++){
+    for(let j = 0; j <= i; j++){
+        console.log("$");
+    }
+    console.log("\n")
+}
