@@ -22,7 +22,7 @@
 
 
 
-let arr = [1,4,6,7,3,"usama"];
+// let arr = [1,4,6,7,3,"usama"];
 
 
 // let result = Array.isArray(arr)
@@ -32,5 +32,5 @@ let arr = [1,4,6,7,3,"usama"];
 // let result = arr.includes(7)
 // console.log(result);
 
-let result = arr.split(",")
-console.log(result);
+// let result = arr.split(",")
+// console.log(result);
