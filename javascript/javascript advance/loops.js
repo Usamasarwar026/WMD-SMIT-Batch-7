@@ -78,3 +78,13 @@
 //     }
 //     console.log("\n")
 // }
+
+
+
+
+let arr = [1,2,3,4,5,6,7,8];
+
+let newArray = arr.find((x) => {
+ return x == 7;
+});
+console.log(newArray);
