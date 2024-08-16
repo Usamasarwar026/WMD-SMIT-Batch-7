@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#box1{
+    background-color: rgb(238, 65, 65);
+    /* position: relative;
+    top: 50px;
+    left: 20px; */
+}
+#box2{
+    background-color: rgb(65, 238, 74);
+    /* position: absolute;
+    top: 20px;
+    right: 50px; */
+    /* text-align: justify; */
+}
+#box3{
+    background-color: rgb(65, 226, 238);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+}
+#box4{
+    background-color: rgb(169, 65, 238);
+    /* position: sticky;
+    bottom: 50px;
+    left: 150px; */
+}
+#box5{
+    background-color: rgb(240, 92, 195);
+    /* visibility: hidden; */
+    text-align: center;
+}
