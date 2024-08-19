@@ -44,3 +44,10 @@
     /* visibility: hidden; */
     text-align: center;
 }
+
+
+/* google font family */
+h1{
+    font-family: "Bungee Tint", sans-serif;
+    font-family: "Matemasie", sans-serif;
+}
