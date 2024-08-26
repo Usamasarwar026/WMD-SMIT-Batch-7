@@ -62,3 +62,56 @@
     text-decoration: none;
     color: rgb(238, 238, 238);
 }
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    color:rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.droplist{
+    /* margin-top: 7px; */
+    position: absolute;
+    display: none;
+    width: 130px;
+    background-color: rgb(212, 212, 212);
+    z-index: 1;
+
+}
+.droplist a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 5px;
+    padding: 3px;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+}
+
+.dropdown:hover .droplist{
+    display: block;
+    box-shadow: 0px 7px 16px 0px rgb(173, 172, 172);
+}
+
+.test{
+    background-color: red;
+    text-align: center;
+    width: 30%;
+    height: 90px;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 30px;
+
+    
+}
+
+
+p{
+    color: red;
+    text-indent: 30px;
+}
