@@ -1,0 +1,18 @@
+.form-label {
+    color: white;
+  }
+  
+  .container {
+    background-color: transparent; /* Optional: To ensure the white text is visible */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+
+ .form-control{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(63, 63, 63);
+  }
+ 

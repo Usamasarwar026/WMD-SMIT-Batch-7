@@ -1,0 +1,97 @@
+
+
+/* Basic container styling */
+.cd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  /* Card area styling */
+  #card-area {
+    width: 100%;
+    max-width: 450px; 
+    margin: 0 auto;
+  }
+
+  .box{
+    /* width: 500px; */
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    
+}
+  
+  /* Box area styling */
+  .box-area {
+    position: relative;
+
+  }
+  
+  /* Responsive image */
+  .box img {
+    width: 100%;
+    height: auto; 
+    display: block;
+    border-radius: 10px; 
+    object-fit: cover; 
+    transition: transform 0.5s;
+  }
+  
+  /* Overlay styling */
+  .overlay {
+    height: 0;
+    width: 100%;
+    background-image: linear-gradient(transparent, #367a6b 59%);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #fff;
+    transition: height 0.5s;
+  }
+  
+  .overlay h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .overlay p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Hover effect for overlay */
+
+  .box:hover img{
+    transform: scale(1.1);
+}
+
+.box:hover .overlay{
+    height: 100%;
+    opacity: 1;
+}
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    #card-area {
+      width: 100%; /* Make sure it scales down on smaller screens */
+    }
+  
+    .overlay h3 {
+      font-size: 1.25rem;
+    }
+  
+    .overlay p {
+      font-size: 0.9rem;
+    }
+  }
+  

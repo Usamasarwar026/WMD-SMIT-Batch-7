@@ -1,0 +1,27 @@
+
+
+.icon ul{
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 22px;
+}
+
+.icon ul li {
+    text-decoration: none;
+    list-style-type: none;
+    /* display: flex; */
+}
+.icon ul li a{
+    color: whitesmoke;
+
+}
+.icon ul li:nth-child(1){
+    color: #64ffda;
+}
+
+.icon ul li a:hover{
+    color: #3fd8b4;
+}

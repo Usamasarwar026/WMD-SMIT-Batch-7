@@ -1,0 +1,38 @@
+.footer {
+    background-color: #344852; 
+    color: #ebebeb; 
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-text {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .footer-social-icons {
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-text {
+      font-size: 0.9rem;
+    }
+  
+    .footer-social-icons a {
+      font-size: 1.2rem;
+      margin: 0 8px;
+    }
+  }
+  

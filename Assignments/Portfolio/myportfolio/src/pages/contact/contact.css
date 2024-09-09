@@ -1,0 +1,26 @@
+
+.contactdiv {
+    padding: 20px;
+     /* Light background */
+  }
+  
+  .contacttext h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: aquamarine;
+    margin-bottom: 20px;
+    transition: 0.5s;
+  }
+
+  
+.contacttext h2:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+  
+  .contactform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
