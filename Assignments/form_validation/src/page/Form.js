@@ -5,8 +5,8 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import { Cityname } from '../constant/Cityname';
 import { Container, FormControl, FormControlLabel, FormHelperText, FormLabel, InputLabel, MenuItem, Radio, RadioGroup, Select } from '@mui/material';
-  import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Form() {
     const [formvalue, setformvalue] = useState({
@@ -117,7 +117,7 @@ function Form() {
         event.preventDefault();
         if (validate()) {
             // alert('Form submitted successfully!');
-             toast.success("Form submitted successfully!");
+            toast.success("Form submitted successfully!");
             console.log("Form submitted:", formvalue);
             setformvalue({
                 userid: "",
@@ -208,12 +208,12 @@ function Form() {
                     {/* Address and Zip Code */}
                     <Grid item xs={12} md={6}>
                         <TextField
-                            name='Address'
+                            name='address'
                             value={formvalue.address}
                             onChange={handleInputChange}
                             error={!!Error.address}
                             helperText={Error.address}
-                            onFocus={() => { onfocus('Address') }}
+                            onFocus={() => { onfocus('address') }}
                             fullWidth
                             multiline
                             label="Address"
@@ -282,10 +282,10 @@ function Form() {
                             <FormLabel id="gender-radio-buttons-group-label">Gender</FormLabel>
                             <RadioGroup
                                 aria-labelledby="gender-radio-buttons-group-label"
-                                name="gender"  
+                                name="gender"
                                 value={formvalue.gender}
                                 onChange={handleInputChange}
-                                onFocus={() => { onfocus('gender') }}  
+                                onFocus={() => { onfocus('gender') }}
                             >
                                 <FormControlLabel value="female" control={<Radio />} label="Female" />
                                 <FormControlLabel value="male" control={<Radio />} label="Male" />
@@ -299,7 +299,7 @@ function Form() {
                     <Grid item xs={12} style={{ textAlign: 'center' }}>
                         <Button style={{ width: '50%' }} type='submit' variant="contained">Submit</Button>
                     </Grid>
-                    <ToastContainer/>
+                    <ToastContainer />
                 </Grid>
             </Box>
         </Container>
