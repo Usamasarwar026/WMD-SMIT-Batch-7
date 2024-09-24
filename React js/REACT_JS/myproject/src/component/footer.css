@@ -1,0 +1,16 @@
+
+.footer{
+    background-color: #152f28;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerbar{
+    color: whitesmoke;
+    font-size: 25px;
+
+}

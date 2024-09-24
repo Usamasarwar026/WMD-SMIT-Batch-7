@@ -1,0 +1,51 @@
+/* Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Initially off-screen */
+    width: 250px;
+    height: 100%;
+    background-color: #343a40; /* Dark background */
+    color: white;
+    transition: right 0.3s ease; /* Animation */
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+  
+  .sidebar.show {
+    right: 0; /* Move into view */
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .close-btn:hover {
+    color: #ddd;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px; /* Adjust based on the size of your close button */
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  

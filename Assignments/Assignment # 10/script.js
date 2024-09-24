@@ -237,11 +237,11 @@
 //Add a method to the prototype object and observe its effect on the instances.
 
 // Constructor function for creating person objects
-//function Person(name, age, occupation) {
+// function Person(name, age, occupation) {
 //  this.name = name;
 //  this.age = age;
 //  this.occupation = occupation;
-//}
+// }
 
 // Adding a method to the Person prototype
 //Person.prototype.greet = function () {
@@ -428,6 +428,7 @@
 //}
 
 // Creating an instance with closures
+
 //const personWithClosure = new PersonWithClosure("Ali", 35);
 //console.log(personWithClosure.getName());
 //console.log(personWithClosure.getAge());

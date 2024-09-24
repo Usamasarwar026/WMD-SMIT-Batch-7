@@ -1,0 +1,11 @@
+
+.hero{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('./component/assests/matthew-cooksey-o7oeLa4i7JE-unsplash.jpg');
+  /* width: 200px; */
+  /* position: absolute;
+  z-index: -1; */
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+

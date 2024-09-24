@@ -1,8 +1,28 @@
+/* Header.css */
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+  position: absolute; /* Position it absolutely relative to the parent */
+  top: 10px; /* Distance from the top edge of the navbar */
+  right: 10px; /* Distance from the right edge of the navbar */
+}
 
+/* Optional: Add custom styles for the icon */
+.navbar-toggler-icon {
+  background-image: none; /*If you want to remove the default icon background*/
+}
+
+/* .nav-container{
+  padding: 0px 105px;
+} */
+
+
+
+/* Optional: Adjust the navbar container if needed */
+.navbar {
+  position: relative; /* Ensure it is the positioning context for the toggle button */
+}
 
 .header{
-    background-color: #282c34;
-    color: white;
-    text-align: center;
-    padding: 20px;
-  }
+  border: red;
+}
