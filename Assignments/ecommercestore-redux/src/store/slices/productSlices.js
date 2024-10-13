@@ -18,7 +18,7 @@ export const deleteProductApiAction = createAsyncThunk(
             method: "DELETE",
         });
         const data = await response.json();
-        return { id, data }; // Return only the id for deletion
+        return { id, data }; 
     }
 );
 
@@ -50,11 +50,10 @@ export const updateProduct = createAsyncThunk(
             body: JSON.stringify(product),
         });
         const data = await response.json();
-        return { id, data }; // Return both id and the updated product
+        return { id, data }; 
     }
 );
 
-// Patch Product
 export const patchProduct = createAsyncThunk(
     "product/patchProduct",
     async ({ id, product }) => {
@@ -88,7 +87,7 @@ export const productSlice = createSlice({
         filterProducts: (state, action) => {
             const category = action.payload;
             if (category === '') {
-                state.filteredProducts = state.products; // Show all products when 'All' is selected
+                state.filteredProducts = state.products; 
             } else {
                 state.filteredProducts = state.products.filter(product => product.category === category);
             }
@@ -120,11 +119,11 @@ export const productSlice = createSlice({
                 state.filteredProducts = state.filteredProducts.filter(product => product.id !== id);
             })
 
-            // Update Product Case
+            
             .addCase(updateProduct.fulfilled, (state, action) => {
                 const { id, data } = action.payload;
 
-                // Find the product in both products and filteredProducts and update it
+              
                 const updateProductInArray = (arr) => arr.map(product =>
                     product.id === id ? { ...product, ...data } : product
                 );
@@ -133,11 +132,11 @@ export const productSlice = createSlice({
                 state.filteredProducts = updateProductInArray(state.filteredProducts);
             })
 
-            // Patch Product Case
+          
             .addCase(patchProduct.fulfilled, (state, action) => {
                 const { id, data } = action.payload;
 
-                // Find the product in both products and filteredProducts and patch it
+              
                 const patchProductInArray = (arr) => arr.map(product =>
                     product.id === id ? { ...product, ...data } : product
                 );

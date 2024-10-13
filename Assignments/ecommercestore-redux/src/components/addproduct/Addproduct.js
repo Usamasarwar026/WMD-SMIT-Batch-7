@@ -47,7 +47,7 @@ export default function AddProductForm() {
     };
 
     return (
-        <Container className="py-5 mt-5" style={{ border: '2px solid black', boxShadow: '2px 5px 3px black' }}>
+        <Container className="py-5 mt-5 mb-5" style={{ border: '2px solid black', boxShadow: '2px 5px 3px black' }}>
             <h1 className="text-center mb-4">Add a Product</h1>
 
             {error && <Alert variant="danger">{error}</Alert>}

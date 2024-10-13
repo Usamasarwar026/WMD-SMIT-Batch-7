@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { FaStar } from 'react-icons/fa';
 import Header from '../header/Header';
-import { Button } from 'react-bootstrap';
 import Skeleton from 'react-loading-skeleton';
 
 function Product() {
@@ -38,8 +37,6 @@ function Product() {
                     <Skeleton height={25} width={150} />
                     <Skeleton height={50} />
                     <Skeleton height={150} />
-                    <Skeleton height={50} width={100} />
-                    <Skeleton height={50} width={100} style={{ marginLeft: 6 }} />
 
                 </div>
             </>
@@ -65,8 +62,6 @@ function Product() {
                         $ {product.price}
                     </h3>
                     <p className="lead">{product.description}</p>
-                    <Button variant="outline-dark" className='px-4 py-2'>Add to Cart</Button>
-                    <Link to='/cart' className='btn btn-dark ms-2 py-2 px-3'>Go to Cart</Link>
                 </div>
             </>
         );

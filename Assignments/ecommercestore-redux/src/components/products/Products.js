@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchProducts, filterProducts } from '../../store/slices/productSlices'; 
 import Productcard from '../card/Productcard';
 import Skeleton from 'react-loading-skeleton';
-// import Header from '../header/Header';
 
 const Products = () => {
     const dispatch = useDispatch();
@@ -49,8 +48,7 @@ const Products = () => {
     };
 
     return (
-        <div>
-            {/* <Header/> */}
+        <>
             <div className="container py-3">
                 <div className="row">
                     <div className="col-12 text-center">
@@ -65,7 +63,7 @@ const Products = () => {
                     {error && <p>Error fetching products: {error}</p>}
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

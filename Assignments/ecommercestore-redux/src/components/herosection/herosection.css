@@ -26,44 +26,43 @@
   font-size: 2.5rem;
 }
 
-/* Media query for tablet screens */
+
 @media (max-width: 768px) {
   .hero-image {
-    height: 60vh; /* Adjust height for tablets */
+    height: 60vh; 
   }
 
   .hero-carousel .carousel-caption {
-    left: 8%; /* Adjust position for smaller screens */
+    left: 8%; 
     top: 40%;
   }
 
   .hero-carousel .carousel-caption h3 {
-    font-size: 3rem; /* Reduce font size for tablets */
+    font-size: 3rem; 
   }
 
   .hero-carousel .carousel-caption p {
-    font-size: 1.8rem; /* Adjust paragraph font size for tablets */
+    font-size: 1.8rem; 
   }
 }
 
-/* Media query for mobile screens */
 @media (max-width: 576px) {
   .hero-image {
-    height: 50vh; /* Adjust height for mobile screens */
+    height: 50vh; 
   }
 
   .hero-carousel .carousel-caption {
-    left: 2%; /* Position adjustments for mobile */
+    left: 2%; 
     top: 50%;
-    text-align: center; /* Center text for mobile */
-    width: 90%; /* Make the caption take up more width */
+    text-align: center; 
+    width: 90%; 
   }
 
   .hero-carousel .carousel-caption h3 {
-    font-size: 2.5rem; /* Smaller heading font for mobile */
+    font-size: 2.5rem; 
   }
 
   .hero-carousel .carousel-caption p {
-    font-size: 1.5rem; /* Smaller paragraph font for mobile */
+    font-size: 1.5rem; 
   }
 }

@@ -26,7 +26,7 @@ const router = createBrowserRouter([
     element: <AddingProduct />,
   },
   {
-    path: "/updateproduct/:id", // Add this route for updating a product
+    path: "/updateproduct/:id", 
     element: <UpdateProduct />,
   },
 ]);
