@@ -1,0 +1,41 @@
+/* .cards{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    overflow-y: hidden;
+} */
+
+.imgslide{
+    /* border: 2px solid green; */
+    display: flex;
+    overflow-x: auto;
+    margin: 10px 50px;
+}
+  
+  .cards {
+    margin: 10px;
+     /* Ensure cards don't shrink */
+  }
+  
+  .wholecard {
+    width: 150px; /* Fixed width for the card */
+    text-align: center;
+  }
+  
+  .wraper {
+    width: 100%; /* Ensure it fits the container width */
+    height: 250px; /* Fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide overflow if the image is too large */
+  }
+  
+  .imagetitle {
+    margin-top: 10px;
+  }
+  

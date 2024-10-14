@@ -2,7 +2,8 @@
 import './App.css';
 // import Header from './Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigationbar from './Navigationbar';
+import ImageSlider from './components/imageslider/ImageSlider';
+// import Navigationbar from './Navigationbar';
 // import NavBar from './NavBar';
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
       {/* <Header/> */}
       {/* <NavBar/> */}
 
-      <Navigationbar/>
-
+      {/* <Navigationbar/> */}
+        <ImageSlider/>
      
     </div>
   );
