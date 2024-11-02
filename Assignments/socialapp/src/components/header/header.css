@@ -1,0 +1,33 @@
+.login-signup-link {
+    border: 1px solid rgb(182, 181, 181); /* Bootstrap primary color */
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-signup-link:hover {
+    /* border: none; */
+    border: 1px solid #007bff;
+    background-color: #007bff; /* Change to primary color on hover */
+    color: white; /* Change text color on hover */
+}
+
+.login-signup-link svg {
+    margin-right: 5px; /* Spacing between icon and text */
+}
+
+.navbar-shadow {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Adjust the shadow parameters as needed */
+}
+
+.title{
+    color: blue;
+    font-weight: bold;
+}
+.title span{
+    color: black;
+}
+.image{
+    object-fit: cover;
+}
+
