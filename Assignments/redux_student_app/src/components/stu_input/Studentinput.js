@@ -28,7 +28,7 @@ function Studentinput() {
 
 
     let userSchema = yup.object().shape({
-        name: yup.string().max(20, 'Name can be at most 20 characters').required('Name is required'),
+        name: yup.string().max(30, 'Name can be at most 30 characters').required('Name is required'),
         rollno: yup.string().max(10, 'Maximum 10 characters allowed').required('Roll no is required'),
         age: yup.number().typeError('Age must be a number').positive('Age must be positive').integer('Age must be an integer').required('Age is required'),
         email: yup.string().email('Invalid email').required('Email is required'),
